@@ -5,7 +5,7 @@ This module defines the following routines used by the 'train' step of the regre
   during training to produce a model pipeline.
 """
 
-
+#Add a comment for the training function
 def estimator_fn():
     """
     Returns an *unfitted* estimator that defines ``fit()`` and ``predict()`` methods.
