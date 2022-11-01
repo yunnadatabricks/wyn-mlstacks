@@ -38,7 +38,7 @@ resource "databricks_job" "batch_inference_job" {
   }
 
   schedule {
-    quartz_cron_expression = "0 0 13 * * ?" # daily at 1pm
+    quartz_cron_expression = "0 0 10 * * ?" # daily at 10am
     timezone_id            = "UTC"
   }
 
